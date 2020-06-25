@@ -1,10 +1,10 @@
-## Description
+### Description
 
 This module provides functionality of generating an SQL query from an object.
 
 It supports SELECT, INSERT, UPDATE, DELETE, DROP AND CREATE statements.
 
-## Structure
+### Structure
 
 
 <pre> TYPE                ORDER                     CONDITION                       LIMIT </pre>
@@ -27,7 +27,7 @@ It supports SELECT, INSERT, UPDATE, DELETE, DROP AND CREATE statements.
 
 All parameters are type of array with string values.
 
-## Samples
+### Samples
 
 ``` 
 let query = new Query({
