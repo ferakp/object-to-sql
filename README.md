@@ -28,7 +28,10 @@ It supports SELECT, INSERT, UPDATE, DELETE, DROP AND CREATE statements.
 All parameters are type of array with string values.
 
 ### Samples
+<<<<<<< HEAD
 
+=======
+>>>>>>> fc387c92a36c42f0d46b08884d70a4225ca51d5b
 
 ``` 
 let query = new Query({
