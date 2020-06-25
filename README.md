@@ -7,8 +7,8 @@ It supports SELECT, INSERT, UPDATE, DELETE, DROP AND CREATE statements.
 ## Structure
 
 
-<pre> TYPE                ORDER                     CONDITION                          LIMIT </pre>
-<pre> object.queryType    object.order.columns      object.condition.columns           object.limit.count</pre>
+<pre> TYPE                ORDER                     CONDITION                       LIMIT </pre>
+<pre> object.queryType    object.order.columns      object.condition.columns        object.limit.count</pre>
 <pre>                     object.order.directions   object.condition.operators</pre>
 <pre>                                               object.condition.values</pre>
 <pre>                                               object.condition.logicalOperators</pre>
