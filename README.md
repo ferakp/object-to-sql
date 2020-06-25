@@ -47,7 +47,7 @@ let query = new Query({
         values: ["2"]
     }
 });
-```  	
+```
 
 Generates **SELECT (firstColumn) FROM test WHERE firstColumn = ? ORDER BY firstColumn DESC, secondColumn ASC, thirdColumn** and **[ '2' ]**
 
