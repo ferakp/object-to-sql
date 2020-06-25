@@ -49,3 +49,16 @@ let query = new Query({
 ```  	
 
 Generates **SELECT (firstColumn) FROM test WHERE firstColumn = ? ORDER BY firstColumn DESC, secondColumn ASC, thirdColumn** and **[ '2' ]**
+
+```
+query = new Query({
+    queryType: ["INSERT"],
+    insert: {
+        table: ["test"],
+        columns: ["firstColumn"],
+        values: ["1", "2"]
+    }
+});
+```
+
+Generates **INSERT INTO test(firstColumn) VALUES ?** and **[ [ [ '1', '2' ] ] ]**
