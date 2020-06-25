@@ -23,4 +23,29 @@ It supports SELECT, INSERT, UPDATE, DELETE, DROP AND CREATE statements.
 <pre>                             object.create.columns</pre>
 <pre>                             object.create.types</pre>
 <pre>                             object.create.constrains</pre>
+<br/>
 
+All parameters are type of array with string values.
+
+## Samples
+
+``` 
+let query = new Query({
+    queryType: ["SELECT"],
+    select: {
+        table: ["test"],
+        columns: ["firstColumn"]
+    },
+    order: {
+        columns: ["firstColumn", "secondColumn", "thirdColumn"],
+        directions: ["DESC", "ASC"]
+    },
+    condition: {
+        columns: ["firstColumn"],
+        operators: ["="],
+        values: ["2"]
+    }
+});
+```  	
+
+Generates **SELECT (firstColumn) FROM test WHERE firstColumn = ? ORDER BY firstColumn DESC, secondColumn ASC, thirdColumn** and **[ '2' ]**
