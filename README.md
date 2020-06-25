@@ -7,14 +7,14 @@ It supports SELECT, INSERT, UPDATE, DELETE, DROP AND CREATE statements.
 ## Structure
 
 
-<pre> TYPE                ORDER                     CONDITION                               LIMIT </pre>
-<pre> object.queryType    object.order.columns      object.condition.columns                object.limit.count</pre>
+<pre> TYPE                ORDER                     CONDITION                          LIMIT </pre>
+<pre> object.queryType    object.order.columns      object.condition.columns           object.limit.count</pre>
 <pre>                     object.order.directions   object.condition.operators</pre>
 <pre>                                               object.condition.values</pre>
 <pre>                                               object.condition.logicalOperators</pre>
 <br/>
-<pre> SELECT                   INSERT                   UPDATE                        DROP</pre>
-<pre> object.select.table      object.insert.table      object.update.table           object.drop.table</pre>
+<pre> SELECT                   INSERT                   UPDATE                     DROP</pre>
+<pre> object.select.table      object.insert.table      object.update.table        object.drop.table</pre>
 <pre> object.select.columns    object.insert.columns    object.update.columns</pre>                            
 <pre>                          object.insert.values     object.update.values</pre>
 <br/>
