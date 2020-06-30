@@ -1,3 +1,7 @@
+#DEPRECATED 
+
+
+
 ### Description
 
 This module provides functionality of generating an SQL query from an object.
